@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta name="viewport" content="width-device-width">
+  <title>AR Viralz</title>
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div id="branding">
+	 <h1><span class="highlight">AR Viralz</span></h1>
+	</div>
+	 <nav>
+	  <ul>
+	   <li class="current"><a href="#home">home</a></li>
+	   <li><a href="#about">about</a></li>
+	   <li><a href="#contact">contact</a></li>
+	   <li><a href="#music">music</a></li>
+	  </ul>
+	 </nav>
+   </div>
+  </header>
+  
+  <section id="showcase">
+   <div class="container">
+    <h1>DJ/PRODUCER<h1>
+	<p>The best DJ in DehraDun, 
+	book for any event night to get the best music experience for your show.
+	</p>
+   </div>
+  
+  </section>
+  
+  <section id="booking">
+   <div class="container">
+    <h1>Contact for bookings</h1>
+	<form>
+	 <input type="email" placeholder="enter your E-mail">
+	 <button type="submit" class="button1">Contact</button>
+	</form> 
+  </section>
+  
+  <section id="contact">
+   <div class="container">
+    <div class="contactus">
+	 <a href="https://www.whatsapp.com/" target="_blank"><img src="whatsapp.png"/></a>
+	 <h3>Whatsapp</h3>
+	 <p>contact us on Whatsapp.</p>
+	</div>
+	<div class="contactus">
+	 <a href="https://www.instagram.com/"target="_blank"><img src="instagram.png"/></a>
+	 <h3>Instagram</h3>
+	 <p>Connect with us on Instagram</p>
+	 </div>
+	<div class="contactus">
+	 <a href="https://www.facebook.com/"target="_blank"><img src="facebook.png"/></a>
+	<h3>Facebook</h3>
+	<p>Check us out on Facebook</p>
+	</div>
+   </div>
+  </section>   
+   
+ </body>

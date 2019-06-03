@@ -1,0 +1,245 @@
+<style>
+ body{
+  font:15px/1.5 arial, helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color: black;
+ }
+ 
+ .container{
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+ }
+ 
+ header{
+  background: #35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#23E5E5 3px solid;
+ }
+ 
+ header a{
+ color:#ffffff;
+ text-decoration:none;
+ text-transform: uppercase;
+ font-size:16px;
+ }
+ 
+ ul{
+  margin:0;
+  padding:0;
+ }
+ 
+ header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+ }
+ 
+ header #branding{
+  float: left;
+ }
+ 
+ header #branding h1{
+ margin:0;
+ }
+ 
+ header nav{
+ float: right;
+ margin-top: 10px;
+ }
+ 
+ header .highlight, header .current a{
+  color: #40D2D2;
+  font-weight: bold;
+ }
+ 
+ header a:hover{
+  color:greem;
+  font-weight: bold;
+ }
+ 
+ #showcase{
+  min-height:400px;
+  background: url("mixer.jpg") no-repeat 0 -170px;
+  text-align:center;
+  color:#ffffff;
+  padding:60px;
+ }
+ 
+ #showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+ }
+ 
+ #showcase p{
+  font-size: 30px;
+  color:#ffffff;
+ }
+ 
+ #booking {
+  padding:15px;
+  color: #ffffff;
+  background:#35424a;
+ }
+ 
+ #booking h1{
+  float: left;
+ }
+ 
+ #booking form{
+  float: right;
+  margin-top:15px;
+ }
+ 
+ #booking input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+ }
+ 
+ .button1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#ffffff;
+ }
+ 
+ #contact{
+  margin-top:20px;
+ }
+ 
+ #contact .contactus{
+  float:left;
+  width:30%;
+  padding:10px;
+  text-align:center;
+  color:white;
+ }
+ 
+ #contact .contactus img{
+  width:90px;
+ }
+ 
+ a:hover{
+  color:blue;
+ }
+ 
+ aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+ }
+ 
+article#main-col{
+ float:left;
+ width:65%;
+} 
+
+.dark{
+ padding:15px;
+ background:#35424a;
+ color:#fff;
+ margin-bottom:10px;
+ margin-top10:px;
+ line-height:30px;
+}
+
+.page-title{
+ font-size:30px;
+ color:#fff;
+}
+
+#main{
+  background: url("turntable.jpg") -200px;
+  padding:200px;
+  padding-top:50px;
+}
+
+#number2{
+ color:#40D2D2;
+}
+ #mymusic h1{
+   font-size:35px;
+   text-align:center;
+ }
+ 
+ #mymusic div{
+  background:url("skull.jpg");
+ }
+ 
+ 
+ </style>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta name="viewport" content="width-device-width">
+  <title>AR Viralz</title>
+ </head>
+ <body id="body">
+  <header>
+   <div class="container">
+    <div id="branding">
+	 <h1><span class="highlight">AR Viralz</span></h1>
+	</div>
+	 <nav>
+	  <ul>
+	   <li><a href="home.html">home</a></li>
+	   <li><a href="about.html">about</a></li>
+	   <li><a href="#contact">contact</a></li>
+	   <li class="current"><a href="music.html">music</a></li>
+	  </ul>
+	 </nav>
+   </div>
+  </header>
+  
+  <section id="booking">
+   <div class="container">
+    <h1>Contact for bookings:<a id="number2" href="tel:9068166651"> 9068166651 </a></h1> 
+  </section>
+  <section>
+   <div id="mymusic">
+    <h1>My Music</h1>
+	 <iframe width="560" height="315" src="https://www.youtube.com/embed/P96eeslM3is" frameborder="0" allow="accelerometer; 
+      autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  align="left">Latest release</iframe>
+
+     <iframe align="right" src="https://open.spotify.com/embed/artist/7oz0GidLKHlcZF9efTzRhP" width="500" height="320"
+ frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+   </div>   
+  </section>
+   <section id="contact">
+   <div class="container">
+    <div class="contactus">
+	 <a href="https://www.whatsapp.com/" target="_blank"><img src="whatsapp.png"/></a>
+	 <h3>Whatsapp</h3>
+	 <p>contact us on Whatsapp.</p>
+	</div>
+	<div class="contactus">
+	 <a href="https://www.instagram.com/"target="_blank"><img src="instagram.png"/></a>
+	 <h3>Instagram</h3>
+	 <p>Connect with us on Instagram</p>
+	 </div>
+	<div class="contactus">
+	 <a href="https://www.facebook.com/"target="_blank"><img src="facebook.png"/></a>
+	<h3>Facebook</h3>
+	<p>Check us out on Facebook</p>
+	</div>
+   </div>
+  </section>
+  
+   
+ </body>
